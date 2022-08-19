@@ -129,13 +129,12 @@ footer {
   justify-content: center;
   color: var(--primary-color);
   font-size: 20px;
-
 }
 .iframe {
   margin: 0 auto;
   display: block;
   padding: 10px 10px 10px 10px;
-  border: #ffd772
+  border: #ffd772;
   border-style: groove;
   border-width: 1px;
 }
