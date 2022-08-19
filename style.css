@@ -128,7 +128,7 @@ footer {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 .iframe {
