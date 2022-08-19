@@ -134,8 +134,8 @@ footer {
 .iframe {
   margin: 0 auto;
   display: block;
-  padding-left: 30px;
-  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  size-adjust: 30px;
 }
 .text-gradient {
   background: linear-gradient(to right, #072a6c 0%, #ffd772 100%);
