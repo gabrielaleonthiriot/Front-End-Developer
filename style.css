@@ -127,3 +127,8 @@ footer {
   padding-left: 30px;
   justify-content: center;
 }
+.text-gradient {
+  background: linear-gradient(to right, #072a6c 0%, #ffd772 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
