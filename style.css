@@ -135,9 +135,9 @@ footer {
   margin: 0 auto;
   display: block;
   padding: 10px 10px 10px 10px;
-  border: #072a6c;
-  border-style: dashed;
-  border-width: 3px;
+  border: #ffd772
+  border-style:groove
+  border-width: 1px;
 }
 .text-gradient {
   background: linear-gradient(to right, #072a6c 0%, #ffd772 100%);
