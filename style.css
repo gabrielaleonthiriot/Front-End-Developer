@@ -1,6 +1,6 @@
 :root {
   --primary-color: #072a6c;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #c5cdff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -135,7 +135,9 @@ footer {
   margin: 0 auto;
   display: block;
   padding: 10px 10px 10px 10px;
-  size-adjust: 30px;
+  border: #072a6c;
+  border-style: dashed;
+  border-width: 3px;
 }
 .text-gradient {
   background: linear-gradient(to right, #072a6c 0%, #ffd772 100%);
