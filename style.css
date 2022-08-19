@@ -118,6 +118,12 @@ footer {
   margin-top: 30px;
   border: #072a6c;
 }
+.bborder {
+  border: #072a6c;
+  border-style: double;
+  border-radius: 5px;
+  border-width: 20px;
+}
 .cxriot {
   text-align: center;
   display: flex;
