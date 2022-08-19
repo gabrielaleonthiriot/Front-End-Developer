@@ -1,6 +1,6 @@
 :root {
   --primary-color: #072a6c;
-  --secondary-color: #d2d6f2;
+  --secondary-color: #eaebd9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -129,14 +129,14 @@ footer {
   justify-content: center;
   color: var(--primary-color);
   font-size: 20px;
-  text-decoration: none;
+
 }
 .iframe {
   margin: 0 auto;
   display: block;
   padding: 10px 10px 10px 10px;
   border: #ffd772
-  border-style:groove
+  border-style: groove;
   border-width: 1px;
 }
 .text-gradient {
