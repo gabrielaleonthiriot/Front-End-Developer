@@ -126,3 +126,7 @@ footer {
   font-size: 28px;
   text-decoration: none;
 }
+.iframe {
+  margin: 0 auto;
+  text-align: end;
+}
