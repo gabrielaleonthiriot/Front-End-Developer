@@ -118,11 +118,6 @@ footer {
   line-height: 1.5;
   text-align: center;
 }
-body {
-  background-color: lightgreen;
-
-  transition: background-color 0.5s;
-}
 
 .player {
   height: 95vh;
