@@ -37,6 +37,14 @@ p {
   text-align: center;
 }
 
+footer {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 5px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
