@@ -106,10 +106,6 @@ footer {
   margin: 0 auto;
   max-width: 100%;
 }
-.hero {
-  background: pink;
-  text-align: center;
-}
 .navbar-brand {
   background: var(--secondary-color);
   padding: 20px;
