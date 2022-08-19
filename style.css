@@ -109,5 +109,8 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
+}
+.nav-item {
   text-align: right;
 }
