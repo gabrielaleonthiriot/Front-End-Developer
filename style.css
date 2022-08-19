@@ -118,3 +118,11 @@ footer {
   line-height: 1.5;
   text-align: center;
 }
+.cxriot {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
