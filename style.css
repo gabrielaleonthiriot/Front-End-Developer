@@ -38,10 +38,9 @@ p {
 }
 
 footer {
-  background: var(--secondary-color);
   border-radius: 4px;
-  font-size: 20px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 2.5;
   text-align: center;
 }
 
