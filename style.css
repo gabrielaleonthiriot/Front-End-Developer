@@ -120,13 +120,13 @@ footer {
 .bborder {
   border: #072a6c;
   border-style: double;
-  border-radius: 75px;
+  border-radius: 50px;
   border-width: 3px;
 }
 
-.borderaway {
-  margin: 75px 93px 75px 93px;
-  padding: 75px 93px 75px 93px;
+.resumebody {
+  margin: 75px;
+  padding: 75px;
 }
 
 .cxriot {
