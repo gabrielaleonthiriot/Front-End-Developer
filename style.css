@@ -120,7 +120,7 @@ footer {
 .bborder {
   border: #072a6c;
   border-style: double;
-  border-radius: 5px;
+  border-radius: 75px 93px 75px 93px;
   border-width: 9px;
   margin: 75px 93px 75px 93px;
   padding: 75px 93px 75px 93px;
