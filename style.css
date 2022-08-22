@@ -140,8 +140,6 @@ footer {
 }
 .text-gradient {
   background: linear-gradient(to right, #072a6c 0%, #ffd772 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
 }
@@ -153,7 +151,7 @@ footer {
 
 // css for weather app //
 
-body {
+.bodyweather {
   text-align: center;
   border: 3px solid;
   border-color: #2196f3;
