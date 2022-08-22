@@ -123,6 +123,10 @@ footer {
   border-radius: 5px;
   border-width: 9px;
 }
+.bodysm {
+  padding: 75px 75px 75px 75px;
+}
+
 .cxriot {
   text-align: center;
   display: flex;
