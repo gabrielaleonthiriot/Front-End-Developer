@@ -1,6 +1,6 @@
 :root {
   --primary-color: #072a6c;
-  --secondary-color: #e5e6f9;
+  --secondary-color: #d4eeff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -125,6 +125,7 @@ footer {
 }
 .bodysm {
   padding: 75px 75px 75px 75px;
+  background-color: #d4eeff;
 }
 
 .cxriot {
