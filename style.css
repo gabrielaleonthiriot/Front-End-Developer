@@ -123,12 +123,17 @@ footer {
   border-radius: 50px;
   border-width: 3px;
 }
-
+.languages {
+  text-align: center;
+}
 .borderaway {
   margin: 10px 20px 10px 20px;
   padding: 10px;
+  font-family: "Times New Roman", Times, serif;
 }
-
+.nav-item {
+  color: black;
+}
 .cxriot {
   text-align: center;
   display: flex;
@@ -146,6 +151,8 @@ footer {
 }
 .text-gradient {
   background: linear-gradient(to right, #072a6c 0%, #ffd772 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
 }
