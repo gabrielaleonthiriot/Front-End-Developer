@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #072a6c;
+  --primary-color: rgb(255, 215, 114);
   --secondary-color: rgb(212, 238, 255);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -65,19 +65,10 @@ footer {
   text-transform: capitalize;
 }
 
-.contact-link {
+.music-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-.resume-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
@@ -98,7 +89,7 @@ footer {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: #151170;
   font-size: 28px;
   text-decoration: none;
 }
@@ -121,13 +112,13 @@ footer {
   line-height: 1.5;
   text-align: center;
 }
-.aboutpage {
+.bedpage {
   margin: 0 auto;
   display: block;
   border: 3px solid;
   border-color: #ffd772;
   border-style: groove;
-  padding: 20px 250px 20px 250px;
+  padding: 20px;
   margin: 50px;
   border-radius: 50px 50px;
   background-image: linear-gradient(
@@ -138,8 +129,13 @@ footer {
     ),
     url(http://1.bp.blogspot.com/-2kBLvMGSTt8/Uh-WSyca56I/AAAAAAAAAoU/CyC3m8B-iNE/s1600/Blue_Flower_Wallpaper_by_Sarman.jpg);
 }
-.row {
+.col-sm-4,
+.iframe {
+  padding: 10px;
+  text-align: center;
   border: #072a6c;
+  margin: 0 auto;
+  display: block;
 }
 .bborder {
   border: #072a6c;
@@ -185,10 +181,8 @@ a:active {
   color: #072a6c;
 }
 .iframe {
-  margin: 0 auto;
-  display: block;
-  padding: 10px 10px 10px 10px;
-  border: #ffd772;
+  padding: 10px;
+  border: rgb(255, 215, 114);
   border-style: inset;
   border-radius: 35px;
   border-width: 2.5px;
@@ -200,7 +194,17 @@ a:active {
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
 }
-
+.aboutp {
+  opacity: 0.6;
+  padding: 10px;
+  border: #ffd772;
+  border-style: inset;
+  border-radius: 35px;
+  border-width: 2.5px;
+  font-weight: bold;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
 .bodyweather {
   text-align: center;
   border: 3px solid;
@@ -255,6 +259,7 @@ a:active {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
@@ -280,11 +285,6 @@ a:active {
   font-size: 15px;
   text-align: center;
   max-width: 35%;
-}
-.col-sm-4 {
-  padding: none;
-  margin: 0 auto;
-  display: block;
 }
 
 .floatcenter {
