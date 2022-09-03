@@ -37,8 +37,9 @@ h3 {
 
 p {
   background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 25px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
@@ -66,9 +67,9 @@ footer {
 }
 
 .music-link {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: black;
 }
 
 .homepage-link {
@@ -90,7 +91,7 @@ footer {
   display: flex;
   justify-content: center;
   color: #151170;
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -138,6 +139,7 @@ footer {
   margin: 0 auto;
   display: block;
 }
+
 .bborder {
   border: #072a6c;
   border-style: double;
@@ -215,14 +217,14 @@ a:active {
   border-style: groove;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 15px;
-  margin: 200px;
-  border-radius: 50px 50px;
+  margin: 10px;
+  border-radius: 50px;
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 0, 0.5),
       rgba(80, 169, 211, 0.5)
     ),
-    url(https://static.vecteezy.com/system/resources/previews/000/063/309/original/weather-icons-vector.jpg);
+    url(https://external-preview.redd.it/Gja0EwOIcPCAwP1QnSRpiuu7OzQ9krDUdCXVc1t8zSo.jpg?auto=webp&s=ab3627ff02c789bce33bbe5ed637ee736cb0f8e3);
 }
 .box {
   background-color: rgb(186, 217, 238);
