@@ -231,13 +231,20 @@ a:active {
   margin: auto;
   border-radius: 20px;
 }
-.weatherbio {
-  margin: 50px;
+.row-sm-4 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border-radius: 55px;
+  padding: 10px;
+  color: black;
 }
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
 
 .overview {
@@ -294,4 +301,11 @@ a:active {
 
 .floatcenter {
   text-align: center;
+}
+.weatherborder {
+  border: #ffd772;
+  border-style: inset;
+  border-radius: 25px;
+  border-width: 4.5px;
+  font-stretch: ultra-condensed;
 }
