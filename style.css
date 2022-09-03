@@ -198,13 +198,15 @@ a:active {
 .aboutp {
   opacity: 0.6;
   padding: 10px;
+  margin: 15px 350px 15px 350px;
   border: #ffd772;
   border-style: inset;
-  border-radius: 35px;
-  border-width: 2.5px;
+  border-radius: 25px;
+  border-width: 4.5px;
   font-weight: bold;
+  font-stretch: ultra-condensed;
   color: black;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .bodyweather {
   text-align: center;
