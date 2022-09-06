@@ -1,6 +1,6 @@
 :root {
   --primary-color: rgb(255, 215, 114);
-  --secondary-color: rgb(212, 238, 255);
+  --secondary-color: rgb(180, 217, 242);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
+  background-color: #b4d9f2;
   padding: 10px;
   margin: 30px;
   border-radius: 25px;
@@ -64,6 +64,7 @@ footer {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  color: black;
 }
 
 .music-link {
@@ -132,6 +133,9 @@ footer {
 }
 .col-sm-4,
 .col-sm-2,
+.col-md-6,
+.col-md-5,
+.row-sm-2,
 .iframe {
   padding: 10px;
   text-align: center;
@@ -233,14 +237,7 @@ a:active {
   margin: auto;
   border-radius: 20px;
 }
-.row-sm-4 {
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-  border-radius: 55px;
-  padding: 10px;
-  color: black;
-}
+
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
@@ -290,6 +287,14 @@ a:active {
   font-size: 16px;
   color: #151170;
   border-radius: 5px 5px;
+}
+.row-sm-4 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border-radius: 55px;
+  padding: 10px;
+  color: black;
 }
 .col-6 {
   box-sizing: none;
